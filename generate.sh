@@ -7,7 +7,7 @@ L="Bengaluru"
 O="PowerX-NOT"
 OU="PowerX-NOT"
 CN="PowerX-NOT"
-emailAddress="pugalg100@gmail.com"
+emailAddress="Shravankumarsayz@gmail.com"
 
 GREEN='\033[0;32m'
 RED='\033[0;31m'
