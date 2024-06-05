@@ -4,9 +4,9 @@
 C="IN"
 ST="India"
 L="Bengaluru"
-O="PowerX-NOT"
-OU="PowerX-NOT"
-CN="PowerX-NOT"
+O="Sayz"
+OU="Sayz"
+CN="Sayz"
 emailAddress="Shravankumarsayz@gmail.com"
 
 GREEN='\033[0;32m'
