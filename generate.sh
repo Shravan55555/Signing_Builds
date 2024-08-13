@@ -18,7 +18,7 @@ subject="/C=$C/ST=$ST/L=$L/O=$O/OU=$OU/CN=$CN/emailAddress=$emailAddress"
 
 PRIVATE_KEY="$HOME/$O.pem"
 
-for cert in bluetooth cyngn-app media networkstack platform releasekey sdk_sandbox shared testcert testkey verity; do
+for cert in bluetooth cyngn-app media networkstack nfc platform releasekey sdk_sandbox shared testcert testkey verity; do
     openssl req -new -x509 "-sha256" -key ${PRIVATE_KEY} -out ~/.android-certs/${cert}.x509.pem -days 36500 -subj ${subject}
     openssl pkcs8 -in ${PRIVATE_KEY} -topk8 -outform DER -out ~/.android-certs/${cert}.pk8 -nocrypt
 done
