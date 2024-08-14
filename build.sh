@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # lunch ROM_DEVICE-BUILD_TYPE
-ROM="lineage"
-DEVICE="laurel_sprout"
-BUILD_TYPE="userdebug"
+ROM="PixelOS"
+DEVICE="RMX1901"
+BUILD_TYPE="user"
 
 # Colors
 GREEN='\033[0;32m'
